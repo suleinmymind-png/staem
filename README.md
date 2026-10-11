@@ -1,4 +1,8 @@
-<img width="1919" height="1199" alt="Cuplikan layar 2026-10-11 221817" src="https://github.com/user-attachments/assets/d8e363df-acf0-4339-aa33-5fba0f6d9ab4" />
+
+<img width="1919" height="1199" alt="Preview home" src="https://github.com/user-attachments/assets/d8e363df-acf0-4339-aa33-5fba0f6d9ab4" />
+
+<img width="1917" height="1198" alt="preview detail" src="https://github.com/user-attachments/assets/e9ccd549-61a4-4fe7-88a6-12a943c1119e" />
+
 
 
 STAEM Store — The Parody Game Shopping Simulator
