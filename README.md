@@ -1,3 +1,4 @@
+<img width="1919" height="1199" alt="Preview" src="https://github.com/user-attachments/assets/ada9ceca-7a49-4b99-bbed-69816dbb8445" />
 
 STAEM Store — The Parody Game Shopping Simulator
 
