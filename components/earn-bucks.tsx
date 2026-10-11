@@ -24,10 +24,10 @@ export function EarnBucks({ compact = false }: { compact?: boolean }) {
         </span>
         <div>
           <h2 id="earn-heading" className="text-sm font-semibold text-white">
-            {compact ? 'Short on funds?' : 'Your Vapor Wallet'}
+            {compact ? 'Short on funds?' : 'Your Staem Wallet'}
           </h2>
           <p className="text-xs text-muted-foreground">
-            Balance: <span className="font-semibold text-white">{formatPrice(wallet)}</span> Vapor Bucks
+            Balance: <span className="font-semibold text-white">{formatPrice(wallet)}</span> Staem Bucks
           </p>
         </div>
       </div>

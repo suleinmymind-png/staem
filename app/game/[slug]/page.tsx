@@ -15,8 +15,8 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params
   const game = getGameBySlug(slug)
-  if (!game) return { title: 'Game not found — VAPOR Store' }
-  return { title: `${game.title} on VAPOR`, description: game.shortDescription }
+  if (!game) return { title: 'Game not found — STAEM Store' }
+  return { title: `${game.title} on STAEM`, description: game.shortDescription }
 }
 
 export default async function GamePage({ params }: { params: Promise<{ slug: string }> }) {

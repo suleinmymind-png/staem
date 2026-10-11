@@ -16,7 +16,7 @@ export function PurchaseBox({ game }: { game: Game }) {
     <div className="flex flex-col gap-3">
       {owned && (
         <div className="rounded-sm bg-gradient-to-r from-[#4c6b22] to-[#2f4413] px-4 py-3 text-sm text-white">
-          {game.title} is already in your VAPOR library. Time to not play it.
+          {game.title} is already in your STAEM library. Time to not play it.
         </div>
       )}
       <section

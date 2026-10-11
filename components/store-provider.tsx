@@ -83,7 +83,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   const checkout = useCallback(() => {
     if (cart.length === 0) return false
     if (cartTotal > wallet) {
-      notify(`Insufficient funds. You need ${((cartTotal - wallet) / 100).toFixed(2)} more Vapor Bucks.`, 'error')
+      notify(`Insufficient funds. You need ${((cartTotal - wallet) / 100).toFixed(2)} more Staem Bucks.`, 'error')
       return false
     }
     const now = Date.now()

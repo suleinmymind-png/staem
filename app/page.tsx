@@ -40,7 +40,7 @@ export default function HomePage() {
     <main className="relative">
       <div className="absolute inset-x-0 top-0 -z-10 h-[520px] bg-gradient-to-b from-[#0e3a5c]/60 to-transparent" />
       <div className="mx-auto flex max-w-[940px] flex-col gap-10 px-4 py-8">
-        <h1 className="sr-only">VAPOR Store</h1>
+        <h1 className="sr-only">STAEM Store</h1>
         <FeaturedCarousel games={featured} />
         <EarnBucks />
         <SpecialOffers games={specials} />

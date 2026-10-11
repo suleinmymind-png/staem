@@ -10,9 +10,9 @@ import './globals.css'
 const geist = Geist({ subsets: ['latin'], variable: '--font-geist-sans' })
 
 export const metadata: Metadata = {
-  title: 'VAPOR Store — The Parody Game Shopping Simulator',
+  title: 'STAEM Store — The Parody Game Shopping Simulator',
   description:
-    'Shop for totally real games like Half-Wife 3 and Red Bread Redemption 2 with fake Vapor Bucks. A Steam-inspired shopping game.',
+    'Shop for totally real games like Half-Wife 3 and Red Bread Redemption 2 with fake Staem Bucks. A Steam-inspired shopping game.',
   generator: 'v0.app',
   icons: {
     icon: [

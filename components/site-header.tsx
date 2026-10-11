@@ -21,11 +21,11 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 bg-header/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
-        <Link href="/" className="flex items-center gap-2" aria-label="VAPOR Store home">
+        <Link href="/" className="flex items-center gap-2" aria-label="STAEM Store home">
           <span className="flex size-8 items-center justify-center rounded-full bg-gradient-to-br from-primary to-[#1a44c2] text-sm font-black text-header">
             V
           </span>
-          <span className="text-xl font-black tracking-[0.2em] text-white">VAPOR</span>
+          <span className="text-xl font-black tracking-[0.2em] text-white">STAEM</span>
         </Link>
 
         <nav aria-label="Main" className="hidden md:block">
@@ -53,7 +53,7 @@ export function SiteHeader() {
           <Link
             href="/cart"
             className="hidden items-center gap-1.5 rounded-sm bg-secondary px-3 py-1.5 text-xs text-white hover:bg-accent sm:flex"
-            title="Your Vapor Bucks balance"
+            title="Your Staem Bucks balance"
           >
             <Wallet className="size-4" aria-hidden />
             <span className="sr-only">Wallet balance:</span>

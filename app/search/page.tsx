@@ -3,8 +3,8 @@ import { Suspense } from 'react'
 import { SearchResults } from '@/components/search/search-results'
 
 export const metadata: Metadata = {
-  title: 'Search — VAPOR Store',
-  description: 'Search and filter the VAPOR catalog of definitely-real games.',
+  title: 'Search — STAEM Store',
+  description: 'Search and filter the STAEM catalog of definitely-real games.',
 }
 
 export default function SearchPage() {

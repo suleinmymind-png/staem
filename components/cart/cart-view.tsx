@@ -83,7 +83,7 @@ export function CartView() {
             <dd>{formatPrice(cartTotal)}</dd>
           </div>
           <div className="flex justify-between text-xs text-muted-foreground">
-            <dt>Vapor Wallet</dt>
+            <dt>Staem Wallet</dt>
             <dd>{formatPrice(wallet)}</dd>
           </div>
           <div className="flex justify-between text-xs text-muted-foreground">
@@ -104,7 +104,7 @@ export function CartView() {
           disabled={shortfall > 0}
           className="rounded-sm bg-gradient-to-r from-buy to-[#588a1b] py-2.5 text-sm font-medium text-white hover:from-[#8ed629] hover:to-[#6aa621] disabled:cursor-not-allowed disabled:opacity-40"
         >
-          Purchase with Vapor Wallet
+          Purchase with Staem Wallet
         </button>
         <p className="text-[11px] leading-relaxed text-muted-foreground">
           All sales are final. Refunds are available if you played less than 2 hours and cry convincingly.

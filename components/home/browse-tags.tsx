@@ -7,6 +7,8 @@ const featuredTags = [
   { tag: 'Co-op', gradient: 'from-[#7a4b2c] to-[#2e1a0d]' },
   { tag: 'Strategy', gradient: 'from-[#5a2c7a] to-[#1f0f33]' },
   { tag: 'Simulation', gradient: 'from-[#2c7a6d] to-[#0f332d]' },
+  { tag: 'Horror', gradient: 'from-[#3a1f3d] to-[#0d050e]' },
+  { tag: 'Sandbox', gradient: 'from-[#7a6a2c] to-[#2e280d]' },
 ]
 
 export function BrowseTags() {
@@ -15,7 +17,7 @@ export function BrowseTags() {
       <h2 id="tags-heading" className="mb-2 text-sm font-medium uppercase tracking-wide text-white">
         Browse by Category
       </h2>
-      <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+      <ul className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         {featuredTags.map(({ tag, gradient }) => (
           <li key={tag}>
             <Link
